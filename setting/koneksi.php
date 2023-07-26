@@ -4,7 +4,7 @@
 $host = "localhost"; //Berjalan di local
 $username = "root";
 $password = "";
-$db_name = "db_pakar_anemia"; //Nama database
+$db_name = "db_pakar_anemia"; //Nama database gak ada databasenya gak cukup waktu bikin
 
 //koneksi ke basis data
 $mysqli = new mysqli($host, $username, $password, $db_name);
